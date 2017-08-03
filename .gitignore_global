@@ -1,2 +1,6 @@
 *~
 .DS_Store
+yarn.lock
+.padawan
+translations.sh
+.nfs*
