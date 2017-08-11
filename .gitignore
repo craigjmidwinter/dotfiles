@@ -2,6 +2,23 @@
 /[^.]*
 !/bin
 
+.DS_Store
+*.sw[nop]
+.bundle
+.byebug_history
+.env
+db/*.sqlite3
+log/*.log
+rerun.txt
+tags
+!tags/
+tmp/**/*
+!tmp/cache/.keep
+*.pyc
+vim/bundle/
+.vim/view/
+.vim/swap/
+.oracle_jre_usage/
 # Don't include files with sensitive data
 /.zshrc-secrets
 
@@ -86,8 +103,8 @@
 /.msgsrc
 /.netrc
 /.njxnqxgn
+/.node-gyp
 /.npm
-/.oh-my-zsh
 /.parallel
 /.pdepend
 /.pip
@@ -104,9 +121,11 @@
 /.ri
 /.rnd
 /.s3cfg
+/.ScreamingFrogSEOSpider
 /.srl
 /.ssh
 /.subversion
+/.th
 /.tmux.conf
 /.tox
 /.ttytterkey
